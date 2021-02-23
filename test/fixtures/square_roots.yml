@@ -1,0 +1,10 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  num: 4.0
+  res: "4.0 2.5 2.05 2.000609756097561"
+
+two:
+  num: 3.0
+  res: "3.0 2.0 1.75 1.73214"
+

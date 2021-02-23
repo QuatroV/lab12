@@ -1,0 +1,15 @@
+<p>
+  <strong>Имя пользователя:</strong>
+  <%= @user.username %>
+</p>
+
+<p>
+  <strong>Пароль</strong>
+  <%= @user.password_digest %>
+</p>
+
+<div class = 'text-center'>
+  <%= link_to 'Изменить данные о текущем пользователе', edit_user_path(@user), class: "text-primary" %> |
+  <%= link_to 'К программе', root_url , class: "text-primary"  %> |
+  <%= link_to 'Ко всем пользователям', users_path, class: "text-primary" %>
+</div>

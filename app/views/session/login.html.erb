@@ -1,0 +1,18 @@
+<%= form_with url: session_create_url, method: :post, local: true, class: "text-center border border-light p-5" do |f| %>
+    <p class="h4 mb-4">Вход в систему</p>
+    <div class="col">
+        <div class="row justify-content-center my-3">
+            <%= f.text_field :login, required: true, label: 'Логин', class: "form-control", placeholder: "Имя пользователя"  %>
+        </div>
+        <div class="row justify-content-center my-3">
+            <%= f.password_field :password, required: true, label: 'Пароль', class: "form-control", placeholder: "Пароль" %>
+        </div>
+        <div class="row justify-content-center my-2">
+            <%= f.submit 'Войти', class: "btn btn-outline-primary btn-block my-2" %>
+        </div>
+        <div class="row justify-content-center">
+            <a href= "<%= new_user_path %>" class = "text-primary">Зарегистрироваться</a>
+        </div>
+    </div>
+<% end %>
+

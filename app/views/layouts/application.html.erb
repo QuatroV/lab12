@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LABA 12. Auth</title>
+    <%= render 'application/favicon' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .frame{
+      border: 10px solid transparent;
+      border-image: linear-gradient(45deg, #EECFBA, #C5DDE8);
+      border-image-slice: 1; 
+      margin-top:10px;
+    }
+    </style>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body >
+  <div class="row justify-content-center"> 
+    <div class=" frame col-md-4 bg-white p-4">
+      <%= yield %>
+    </div>
+    </div>
+    
+  </body>
+</html>

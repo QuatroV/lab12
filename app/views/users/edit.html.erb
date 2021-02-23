@@ -1,0 +1,10 @@
+<p class="h4 mb-4">Изменение пользователя</p>
+
+<%= render 'form', user: @user %>
+
+<div class = 'text-center'>
+    <%= link_to 'Показать всех пользователей', @user, class: "text-primary"  %> |
+    <%= link_to 'Назад', users_path, class: "text-primary"  %> |
+    <%= link_to 'К программе', root_url , class: "text-primary"  %>
+</div>
+
