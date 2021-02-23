@@ -1,24 +1,5 @@
-# README
+# Лабораторная работа №12
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Лабораторная работ по курсу "Языки Интернет-программирования"
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Приложение вычисляет квадратный корень из числа с использованием формулы Ньютона-Рафсона. Вычисленные результаты сохраняются, чтобы не вычислять одно и то же значение дважды. Кроме того, реализована собственная система авторизации пользователей. Перед тем, как вычислить корень из числа необходимо авторизироваться.
